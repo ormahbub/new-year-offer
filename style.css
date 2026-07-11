@@ -9,10 +9,10 @@
 }
 
 :root {
-    --primary-color: #070211;
-    --text-color: #070211;
-    --accent-color: #FF0000;
-    --light-color: #ffffff;
+  --primary-color: #070211;
+  --text-color: #070211;
+  --accent-color: #ff0000;
+  --light-color: #ffffff;
 }
 
 body,
@@ -54,6 +54,22 @@ h2 {
   align-items: center;
 }
 
+.section-subtitle {
+  color: var(--accent-color);
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.section-title {
+  font-size: 34px;
+  font-weight: 700;
+  color: var(--primary-color);
+}
+img {
+  max-width: 100%;
+}
+
 /* Reset and Default Styling End */
 
 /* Styling for Banner Section Start */
@@ -71,21 +87,41 @@ h2 {
   padding: 50px;
   background-position: center center;
 }
-.banner-section h1, .banner-section h2 {
-    color: var(--light-color);
-    text-align: center;
-
+.banner-section h1,
+.banner-section h2 {
+  color: var(--light-color);
+  text-align: center;
 }
 .banner-section h1 {
-    font-size: 32px;
-    font-weight: 500;
+  font-size: 32px;
+  font-weight: 500;
 }
 .banner-section h2 {
-    font-size: 74px;
-    font-weight: 700;
-    width: 80%;
-    margin-top: 20px;
-    line-height: 84px;
+  font-size: 74px;
+  font-weight: 700;
+  width: 80%;
+  margin-top: 20px;
+  line-height: 84px;
 }
 
 /* Styling for Banner Section End */
+
+/* Styling for Offer Section Start */
+.offer-section {
+  padding: 20px 0;
+}
+.offer-section .offer-text {
+  color: var(--accent-color);
+  font-size: 74px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.offer-section .section-title {
+  margin: 15px 0 40px 0;
+}
+.new-year-image {
+  width: 60%;
+  text-align: center;
+}
+
+/* Styling for Offer Section End */
