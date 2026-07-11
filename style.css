@@ -1,4 +1,50 @@
-body {
-  background-color: black;
-  color: white;
+/* Reset and Default Styling Start */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.3s;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
 }
+
+body,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+button,
+span,
+div,
+li {
+  font-family: "Inter", sans-serif;
+}
+h1,
+h2 {
+  font-family: "Merriweather", serif;
+}
+
+.font-mw {
+  font-family: "Merriweather", serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.center-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.justify-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Reset and Default Styling End */
