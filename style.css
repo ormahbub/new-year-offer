@@ -181,3 +181,41 @@ img {
 }
 
 /* Styling for Night Party Section End */
+
+/* Styling for CTA Section Start */
+.cta-section {
+  padding: 50px 0;
+}
+.cta-section .container {
+  background: linear-gradient(
+    to bottom,
+    var(--accent-color) 100%,
+    var(--light-color) 0%
+  );
+  background: linear-gradient(to bottom, #ff000022 0%, #ff000000 100%);
+  padding: 70px 50px;
+  border-radius: 24px;
+}
+.cta-section h3 {
+  color: var(--primary-color);
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 15px;
+}
+.cta-section h3 span {
+  color: var(--accent-color);
+}
+.cta-section a {
+  background-color: var(--accent-color);
+  color: var(--light-color);
+  border-radius: 4px;
+  padding: 12px 20px;
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 16px;
+}
+.cta-section a:hover {
+  background-color: var(--primary-color);
+}
+
+/* Styling for CTA Section End */
