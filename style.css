@@ -13,6 +13,16 @@
   --text-color: #070211;
   --accent-color: #ff0000;
   --light-color: #ffffff;
+  --bg-gradient-color-1: linear-gradient(
+    to bottom,
+    #070211 0%,
+    rgba(7, 2, 17, 0) 100%
+  );
+  --bg-gradient-color-2: linear-gradient(
+    to right,
+    #070211 0%,
+    rgba(7, 2, 17, 0) 100%
+  );
 }
 
 body,
@@ -54,6 +64,15 @@ h2 {
   align-items: center;
 }
 
+.box-bg {
+  height: 500px;
+  background-repeat: no-repeat;
+  border-radius: 24px;
+  background-size: cover;
+  padding: 50px;
+  background-position: center center;
+}
+
 .section-subtitle {
   color: var(--accent-color);
   text-transform: uppercase;
@@ -66,6 +85,11 @@ h2 {
   font-weight: 700;
   color: var(--primary-color);
 }
+.text {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
 img {
   max-width: 100%;
 }
@@ -76,16 +100,10 @@ img {
 .banner-section {
   padding: 70px 0;
 }
+
 .banner-section .container {
-  height: 500px;
   background-image:
-    linear-gradient(to bottom, #070211 0%, rgba(7, 2, 17, 0) 100%),
-    url("./assets/images/banner-image.png");
-  background-repeat: no-repeat;
-  border-radius: 24px;
-  background-size: cover;
-  padding: 50px;
-  background-position: center center;
+    var(--bg-gradient-color-1), url("./assets/images/banner-image.png");
 }
 .banner-section h1,
 .banner-section h2 {
@@ -125,3 +143,41 @@ img {
 }
 
 /* Styling for Offer Section End */
+
+/* Styling for Night Party Section Start */
+.nightparty-section {
+  padding: 50px 0;
+}
+.nightparty-section .container {
+  background-image:
+    var(--bg-gradient-color-2), url("./assets/images/celebration.png");
+}
+.nightparty-section .content {
+  width: 70%;
+}
+.nightparty-section .content h3 {
+  font-size: 84px;
+  color: var(--light-color);
+}
+.nightparty-section .content .text {
+  color: var(--light-color);
+  width: 75%;
+  margin: 15px 0 30px 0;
+}
+.nightparty-section .content a {
+  color: var(--light-color);
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+}
+.nightparty-section .content a:hover {
+  color: var(--accent-color);
+}
+.nightparty-section .image {
+  width: 30%;
+}
+.nightparty-section .image img {
+  width: 300px;
+}
+
+/* Styling for Night Party Section End */
