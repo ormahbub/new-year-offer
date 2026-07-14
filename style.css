@@ -10,7 +10,7 @@
 
 :root {
   --primary-color: #070211;
-  --text-color: #070211;
+  --text-color: #070211aa;
   --accent-color: #ff0000;
   --light-color: #ffffff;
   --bg-gradient-color-1: linear-gradient(
@@ -219,3 +219,40 @@ img {
 }
 
 /* Styling for CTA Section End */
+
+/* Styling for Coming Soon Section Start */
+.coming-soon-section {
+  padding: 70px 0;
+}
+.coming-soon-section .container {
+  gap: 30px;
+}
+.coming-soon-section .column {
+  width: calc(33.333% - 20px);
+}
+.coming-soon-section .column-01 h3 {
+  margin: 10px 0 15px 0;
+}
+.coming-soon-section .text {
+  color: var(--text-color);
+}
+.coming-soon-section .column-02 {
+  padding: 40px;
+  border: solid 12px var(--accent-color);
+  border-radius: 100%;
+}
+.coming-soon-section .column-03 {
+  padding-left: 40px;
+}
+.coming-soon-section .column-03 .year {
+  font-size: 32px;
+  font-weight: 800;
+  color: var(--accent-color);
+  margin-bottom: 15px;
+}
+.coming-soon-section .column-03 img {
+  margin-top: 30px;
+  width: 120px;
+}
+
+/* Styling for Coming Soon Section End */
