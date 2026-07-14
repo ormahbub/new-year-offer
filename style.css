@@ -256,3 +256,26 @@ img {
 }
 
 /* Styling for Coming Soon Section End */
+
+/* Styling for Holidays Sale Section Start */
+.holidaysale-section {
+  padding: 50px 0;
+}
+.holidaysale-section .section-subtitle {
+color: var(--primary-color);
+}
+.holidaysale-section .section-title {
+  font-size: 48px;
+  margin: 10px 0 15px 0;
+}
+.holidaysale-section .section-title span {
+  color: var(--accent-color);
+}
+.holidaysale-section p.text {
+  color: var(--text-color);
+  text-align: center;
+  width: 60%;
+}
+
+
+/* Styling for Holidays Sale Section End */
